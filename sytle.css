@@ -6,8 +6,7 @@
 
 .centercalc
 {
-    margin-left: 30%;
-    margin-right: 30%;
+    
     margin-top: 10%;
     border: solid;
     border-radius: 10px;
@@ -15,6 +14,21 @@
     text-align: center
 }
 
-.centercalc h1 {
+.centercalc h3 {
     font-family: Helvetica ,sans-serif;
+    margin: 2%;
+}
+
+.centercalc input {
+    margin: 2px;
+}
+
+.centercalc label {
+    margin: 2px;
+    display: block;
+}
+
+.centercalc h6 {
+    margin: 10px;
+    
 }

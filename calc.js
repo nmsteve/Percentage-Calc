@@ -15,7 +15,7 @@ function percentage(Event){
     Event.preventDefault()
     var result = x/y * 100;
     console.log(result);
-    results.innerText = "Answer: "+result+ "%";
+    results.innerText = "Answer: "+result.toFixed(2)+ "%";
     }
 }
 
